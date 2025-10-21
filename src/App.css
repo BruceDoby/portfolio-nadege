@@ -1,42 +1,68 @@
-#root {
-  max-width: 1280px;
+:root {
+  --blanc-creme: #fbfbf2;
+  --beige-clair: #f6ead4;
+  --kaki: #a2a595;
+  --beige-fonce: #b4a284;
+  --moins-noir: #22223b;
+  --noir: #000000;
+  --font1: "Italiana", sans-serif;
+  --font2: "Piazzolla", serif;
+  --font3: "Playfair", serif;
+}
+
+body {
   margin: 0 auto;
-  padding: 2rem;
+}
+
+.presentation {
+  font-family: var(--font1);
+  background-color: var(--blanc-creme);
+  overflow: hidden;
+}
+
+.presentation_elements {
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.presentation h1 {
+  margin: 0;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.presentation .firstground {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  font-size: 100px;
+  font-weight: 300;
+  z-index: 10;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.presentation .background {
+  color: var(--kaki);
+  position: relative;
+  right: 205px;
+  font-size: 230px;
+  font-weight: 300;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0.1;
 }
 
-.card {
-  padding: 2em;
+.balls img {
+  width: 435px;
+  height: 242px;
 }
 
-.read-the-docs {
-  color: #888;
+.rectangle_balls h2 {
+  position: absolute;
+  top: 52%;
+  left: 38%;
+  font-size: 38px;
+  font-weight: 300;
+  color: var(--blanc-creme);
+  z-index: 10;
 }
