@@ -39,6 +39,7 @@ body {
   font-size: 100px;
   font-weight: 300;
   z-index: 10;
+  margin-bottom: 20px;
 }
 
 .presentation .background {
@@ -55,14 +56,29 @@ body {
 .balls img {
   width: 435px;
   height: 242px;
+  position: relative;
+  top: 50px;
 }
 
 .rectangle_balls h2 {
   position: absolute;
-  top: 52%;
+  top: 60%;
   left: 38%;
   font-size: 38px;
   font-weight: 300;
   color: var(--blanc-creme);
   z-index: 10;
+}
+
+.liquid-glass {
+  position: absolute;
+  top: 370px;
+  left: 32.5%;
+  z-index: 5;
+  width: 535px;
+  height: 242px;
+  background: rgba(255, 255, 255, 0.17);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.2px);
 }

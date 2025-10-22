@@ -15,7 +15,7 @@ function App() {
           <div className='rectangle_balls'>
             <h2>Assistante polyvalente</h2>
             <div className='liquid-glass'></div>
-            <div className="balls">
+             <div className="balls">
               <img src={BallsHome} alt="image d'accueil"></img>
             </div>
           </div>
