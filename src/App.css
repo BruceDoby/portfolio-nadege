@@ -58,6 +58,7 @@ body {
   height: 242px;
   position: relative;
   top: 50px;
+  margin-bottom: 100px;
 }
 
 .rectangle_balls h2 {
@@ -70,7 +71,7 @@ body {
   z-index: 10;
 }
 
-.liquid-glass {
+/* .liquid-glass {
   position: absolute;
   top: 370px;
   left: 32.5%;
@@ -81,4 +82,71 @@ body {
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6.2px);
+} */
+
+.about-me {
+  background-color: var(--kaki);
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.about-me h1 {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  font-family: var(--font1);
+  font-weight: 400;
+  font-size: 64px;
+  margin: 0;
+}
+
+.about-me p {
+  font-family: var(--font2);
+  margin: 0;
+  font-size: 24px;
+  padding: 150px 150px 150px 150px;
+}
+
+.about-me .photo {
+  position: absolute;
+  bottom: 28%;
+  right: 10%;
+}
+
+.about-me .polygon1 {
+  transform: scaleX(-1) scaleY(-1);
+  position: absolute;
+  top: 13%;
+  left: 5%;
+}
+
+.about-me .polygon2 {
+  position: absolute;
+  bottom: 14%;
+  left: 58%;
+}
+
+.formations_diplomes {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--beige-fonce);
+}
+
+.formations_diplomes h1 {
+  margin: 0;
+  font-family: var(--font1);
+  font-weight: 300;
+  font-size: 64px;
+}
+
+.formations_diplomes li {
+  font-family: var(--font3);
+}
+
+.formations_diplomes ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }

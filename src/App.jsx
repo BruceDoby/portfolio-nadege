@@ -1,5 +1,7 @@
 import './App.css'
 import BallsHome from './assets/Boules_accueil.png'
+import About from './components/about'
+import Formation from './components/formations'
 
 function App() {
 
@@ -14,16 +16,19 @@ function App() {
           </div>
           <div className='rectangle_balls'>
             <h2>Assistante polyvalente</h2>
-            <div className='liquid-glass'></div>
              <div className="balls">
               <img src={BallsHome} alt="image d'accueil"></img>
             </div>
           </div>
         </div>
       </div>
+      <About />
+      <Formation />
     </main>
     </>
   )
 }
 
 export default App
+
+// <div className='liquid-glass'></div>
