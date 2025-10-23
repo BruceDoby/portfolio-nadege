@@ -6,6 +6,7 @@ function Formation() {
     return(
         <>
         <div className='formations_diplomes'>
+            <img src={Diplomee} alt='Chapeau de diplômé' className='diplome--img'></img>
             <div className='formations--section'>
                 <h1 className='formations_h1'>Formations</h1>
                 <ul>
@@ -22,6 +23,7 @@ function Formation() {
                     ))}
                 </ul>
             </div>
+            <img src={BoulesDiplomes} alt='Balles diplômes' className='diplome--balls'></img>
         </div>
         </>
     )

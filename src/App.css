@@ -14,10 +14,16 @@ body {
   margin: 0 auto;
 }
 
+main {
+  position: relative;
+  overflow: hidden;
+}
+
 .presentation {
   font-family: var(--font1);
   background-color: var(--blanc-creme);
   overflow: hidden;
+  position: relative;
 }
 
 .presentation_elements {
@@ -63,7 +69,7 @@ body {
 
 .rectangle_balls h2 {
   position: absolute;
-  top: 60%;
+  top: 58%;
   left: 38%;
   font-size: 38px;
   font-weight: 300;
@@ -89,6 +95,7 @@ body {
   position: relative;
   padding-top: 20px;
   padding-bottom: 40px;
+  overflow: hidden;
 }
 
 .about-me h1 {
@@ -137,7 +144,7 @@ body {
 }
 
 .formations_diplomes h1 {
-  margin: 0 0 50px 0;
+  margin: 0 0 70px 0;
   font-family: var(--font1);
   font-weight: 300;
   font-size: 64px;
@@ -145,7 +152,8 @@ body {
 
 .formations_diplomes li {
   font-family: var(--font3);
-  margin-bottom: 10px;
+  margin-bottom: 35px;
+  font-weight: 600;
 }
 
 .formations--section {
@@ -179,4 +187,52 @@ body {
 .diplomes--section ul {
   text-align: left;
   width: 485px;
+}
+
+.diplome--img {
+  position: absolute;
+  top: 10%;
+  left: 45%;
+}
+
+.diplome--balls {
+  position: absolute;
+  bottom: 15%;
+  right: 13%;
+}
+
+.light-effect1 {
+  position: absolute;
+  top: 19%;
+  right: -300px;
+  z-index: 100;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.5) 30%,
+    transparent 70%
+  );
+  filter: blur(40px);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.light-effect2 {
+  position: absolute;
+  top: 55%;
+  left: -300px;
+  z-index: 100;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.8) 0%,
+    rgba(255, 255, 255, 0.5) 30%,
+    transparent 70%
+  );
+  filter: blur(40px);
+  white-space: nowrap;
+  pointer-events: none;
 }

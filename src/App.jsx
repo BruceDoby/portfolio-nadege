@@ -22,7 +22,9 @@ function App() {
           </div>
         </div>
       </div>
+      <div className='light-effect1'></div>
       <About />
+      <div className='light-effect2'></div>
       <Formation />
     </main>
     </>
