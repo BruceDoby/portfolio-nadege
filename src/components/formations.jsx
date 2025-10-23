@@ -7,7 +7,7 @@ function Formation() {
         <>
         <div className='formations_diplomes'>
             <div className='formations--section'>
-                <h1>Formations</h1>
+                <h1 className='formations_h1'>Formations</h1>
                 <ul>
                     {parcours.formations.map((formation, index) => (
                         <li key={index}>{formation}</li>
@@ -15,9 +15,9 @@ function Formation() {
                 </ul>
             </div>
             <div className='diplomes--section'>
-                <h1>Diplômes</h1>
+                <h1 className='diplomes_h1'>Diplômes</h1>
                 <ul>
-                    {parcours.formations.map((diplome, index) => (
+                    {parcours.diplomes.map((diplome, index) => (
                         <li key={index}>{diplome}</li>
                     ))}
                 </ul>

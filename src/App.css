@@ -131,11 +131,13 @@ body {
   position: relative;
   display: flex;
   flex-direction: row;
+  gap: 300px;
   background-color: var(--beige-fonce);
+  padding: 70px;
 }
 
 .formations_diplomes h1 {
-  margin: 0;
+  margin: 0 0 50px 0;
   font-family: var(--font1);
   font-weight: 300;
   font-size: 64px;
@@ -143,10 +145,38 @@ body {
 
 .formations_diplomes li {
   font-family: var(--font3);
+  margin-bottom: 10px;
 }
 
-.formations_diplomes ul {
+.formations--section {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 50%;
+}
+
+.diplomes--section {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 50%;
+}
+
+.formations--section ul, .diplomes--section ul {
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
   padding: 0;
   margin: 0;
+  font-size: 20px;
+}
+
+.formations--section ul {
+  text-align: right;
+  width: 485px;
+}
+
+.diplomes--section ul {
+  text-align: left;
+  width: 485px;
 }
