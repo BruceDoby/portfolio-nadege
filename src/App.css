@@ -10,6 +10,12 @@
   --font3: "Playfair", serif;
 }
 
+/* ancien de app.css : 
+#root {
+  margin: 0 auto;
+  text-align: center;
+} */
+
 body {
   margin: 0 auto;
 }
@@ -235,4 +241,64 @@ main {
   filter: blur(40px);
   white-space: nowrap;
   pointer-events: none;
+}
+
+.experiences {
+  background-color: var(--beige-clair);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experiences h1 {
+  margin: 0;
+  font-family: var(--font1);
+  font-weight: 300;
+  font-size: 64px;
+  padding-bottom: 60px;
+  padding-top: 80px;
+}
+
+.chronologie {
+  position: relative;
+}
+
+.stick {
+  width: 15px;
+  height: 1981px;
+  background: linear-gradient(
+    to bottom,
+    #000000 0%,
+    #a2a595 25%,
+    #fbfbf2 50%,
+    #a2a595 75%,
+    #000000 100%
+  );
+  border-radius: 10px;
+  margin-bottom: 150px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boule {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin: 152px auto;
+}
+
+.boule.clair {
+  background: linear-gradient(45deg, #F6EAD4 0%, #22223B 100%);
+}
+
+.boule.fonce {
+  background: linear-gradient(45deg, #F6EAD4 0%, #22223B 62%);
+}
+
+.balls-group {
+  position: relative;
+  bottom: 117.5px;
 }
