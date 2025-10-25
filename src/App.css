@@ -262,11 +262,14 @@ main {
 
 .chronologie {
   position: relative;
+  display: flex;
+  flex-direction: row;
+  font-family: var(--font3);
 }
 
 .stick {
   width: 15px;
-  height: 1981px;
+  height: 2051px;
   background: linear-gradient(
     to bottom,
     #000000 0%,
@@ -287,8 +290,10 @@ main {
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  margin: 152px auto;
+  margin: 158px auto;
 }
+
+/*152px margin auto*/
 
 .boule.clair {
   background: linear-gradient(45deg, #F6EAD4 0%, #22223B 100%);
@@ -301,4 +306,62 @@ main {
 .balls-group {
   position: relative;
   bottom: 117.5px;
+  z-index: 10;
 }
+
+.poste, .entreprise, .competences {
+  display: none;
+}
+
+.year-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.year-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 36px;
+  width: 95px;
+  height: 100px;
+  font-weight: 600;
+  padding: 5px;
+  text-align: center;
+}
+
+.left-column, .right-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-column {
+  gap: 278px;
+  position: absolute;
+  top: 235px;
+  right: 30px;
+}
+
+.right-column {
+  gap: 278.5px;
+  position: absolute;
+  top: 37px;
+  left: 30px;
+}
+
+/*.left-column .year-group {
+  position: absolute;
+  top: 235px;
+  right: 30px;
+  gap de 278
+} */
+
+/*.right-column .year-group {
+  position: absolute;
+  top: 37px;
+  left: 30px;
+  gap de 278.5 pour un truc de 152px au machin stick jsp
+}*/
