@@ -3,6 +3,7 @@ import BallsHome from './assets/Boules_accueil.png'
 import About from './components/about'
 import Formation from './components/formations'
 import Experiences from './components/experiences'
+import Divers from './components/divers'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <div className='light-effect2'></div>
       <Formation />
       <Experiences />
+      <Divers />
     </main>
     </>
   )

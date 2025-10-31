@@ -263,105 +263,84 @@ main {
 .chronologie {
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: flex-start;
   font-family: var(--font3);
+  gap: 50px;
+  padding-top: 50px;
+  padding-bottom: 80px;
 }
 
-.stick {
-  width: 15px;
-  height: 2051px;
-  background: linear-gradient(
-    to bottom,
-    #000000 0%,
-    #a2a595 25%,
-    #fbfbf2 50%,
-    #a2a595 75%,
-    #000000 100%
-  );
-  border-radius: 10px;
-  margin-bottom: 150px;
-  margin-top: 40px;
+.experience-group {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-
-.boule {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  margin: 158px auto;
-}
-
-/*152px margin auto*/
-
-.boule.clair {
-  background: linear-gradient(45deg, #F6EAD4 0%, #22223B 100%);
-}
-
-.boule.fonce {
-  background: linear-gradient(45deg, #F6EAD4 0%, #22223B 62%);
-}
-
-.balls-group {
-  position: relative;
-  bottom: 117.5px;
-  z-index: 10;
-}
-
-.poste, .entreprise, .competences {
-  display: none;
-}
-
-.year-group {
-  display: flex;
-  flex-direction: row;
+  gap: 20px;
 }
 
 .year-label {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: #ffffff;
-  border-radius: 10px;
+  font-family: var(--font3);
   font-size: 36px;
-  width: 95px;
-  height: 100px;
-  font-weight: 600;
-  padding: 5px;
+  background-color: #ffffff;
+  border: 1px solid var(--kaki);
+  border-radius: 10px;
+  width: 200px;
   text-align: center;
+  box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.7);
+  font-weight: 600;
 }
 
-.left-column, .right-column {
+.poste-entreprise {
   display: flex;
   flex-direction: column;
+  font-family: var(--font3);
+  font-size: 20px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  width: 540px;
+  text-align: center;
+  box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.7);
+  font-weight: 1000;
 }
 
-.left-column {
-  gap: 278px;
-  position: absolute;
-  top: 235px;
-  right: 30px;
+.competences {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font3);
+  font-size: 16px;
+  font-style: italic;
+  background-color: var(--blanc-creme);
+  width: 1060px;
+  border-radius: 10px;
+  box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.3);
+  padding-bottom: 15px;
+  padding-top: 15px;
+  gap: 20px;
 }
 
-.right-column {
-  gap: 278.5px;
-  position: absolute;
-  top: 37px;
-  left: 30px;
+.divers {
+  position: relative;
 }
 
-/*.left-column .year-group {
+.divers h1 {
   position: absolute;
-  top: 235px;
-  right: 30px;
-  gap de 278
-} */
+  top: 30px;
+  left: 40px;
+  margin: 0;
+  font-family: var(--font1);
+  color: var(--blanc-creme);
+  font-size: 70px;
+  font-weight: 300;
+}
 
-/*.right-column .year-group {
-  position: absolute;
-  top: 37px;
-  left: 30px;
-  gap de 278.5 pour un truc de 152px au machin stick jsp
-}*/
+.background--divers {
+  position: relative;
+  z-index: -1;
+}
+
+.background--divers img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}

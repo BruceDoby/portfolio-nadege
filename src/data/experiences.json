@@ -1,72 +1,4 @@
 {
-    "left": {
-        "2021": [
-        {
-            "periode": "2021 2022",
-            "poste": "AGENT ADMINISTRATIF",
-            "entreprise": "FM Logistic à Tilloy-lès-Mofflaines",
-            "competences": [
-                "Contrôle, rectification et validation des factures transporteurs, clients",
-                "Intégration des dates de livraisons des commandes dans My SCM",
-                "Prise de rdv des livraisons par mail et positionnement des heures de chargement des camions dans Planet"
-            ]
-        }
-        ],
-        "2018": [
-        {
-            "periode": "2018 2019",
-            "poste": "ASSISTANTE PUIS RESPONSABLE SERVICE TRANSPORT",
-            "entreprise": "GBS à Camphin - Remplacement de la responsable du service transport d'Octobre 2018 à Mai 2019",
-            "competences": [
-                "Gestion des flux de marchandises (affrêtement envoi et reprise) en recherchant des solutions de transports auprès de différentes sociétés partenaires",
-                "Intégration des rendez-vous, pour retirer ou livrer les marchandises sur le logiciel Optidock",
-                "Création des commandes de transports sur le logiciel Navision"
-            ]
-        }
-        ],
-        "2013": [
-        {
-            "periode": "2013 2014",
-            "poste": "ASSISTANTE ADMINISTRATIVE",
-            "entreprise": "Maisons Optinergie à Noyelles-Godault",
-            "competences": [
-                "Suivi des dossiers de construction sur support papier et informatique (demande d'étude de sol, d'implantation, de devis divers...)"
-            ]
-        }
-        ],
-        "2008": [
-        {
-            "periode": "2008",
-            "poste": "AGENT ADMINISTRATIF",
-            "entreprise": "Mairie d'Hénin-Beaumont",
-            "competences": [
-                "Traitement des diverses demandes d'emplois etmise à jour de différents tableaux sur Excel au service des ressources humaines"
-            ]
-        },
-        {
-            "periode": "2008",
-            "poste": "ASSISTANTE ADMINISTRATIF",
-            "entreprise": "Dépann’gaz service à Carvin",
-            "competences": [
-                "Clôture des bons d’interventions des techniciens sur logiciel interne - Saisie de courriers divers"
-            ]
-        }
-        ],
-        "1998": [
-        {
-            "periode": "1998 2002",
-            "poste": "ASSISTANTE TECHNICO-COMMERCIAL",
-            "entreprise": "Adrexo (Groupe Le Galibot) à Vendeville",
-            "competences": [
-                "Préparation des bons de commandes client",
-                "Suivi des dossiers clients (relance paiements, mise à jour documents administratifs...)",
-                "Suivi des contrats distributeurs et contrôleurs (absences, démissions, congés)",
-                "Calcul et suivi des primes distributeurs et contrôleurs"
-            ]
-        }
-        ]
-    },
-    "right": {
         "2024": [
         {
             "periode": "2024",
@@ -77,6 +9,18 @@
             "Réalisation des attachements sur Excel et Hermès à partir de l'ACD d' Osiris (interventions, régules, bonus et pénalités)",
             "Mise en forme et envoie des attachements par mail aux sous-traitants",
             "Divers travaux administratifs"
+            ]
+        }
+        ],
+        "2021": [
+        {
+            "periode": "2021 - 2022",
+            "poste": "AGENT ADMINISTRATIF",
+            "entreprise": "FM Logistic à Tilloy-lès-Mofflaines",
+            "competences": [
+                "Contrôle, rectification et validation des factures transporteurs, clients",
+                "Intégration des dates de livraisons des commandes dans My SCM",
+                "Prise de rdv des livraisons par mail et positionnement des heures de chargement des camions dans Planet"
             ]
         }
         ],
@@ -99,9 +43,21 @@
             ]
         }
         ],
+        "2018": [
+        {
+            "periode": "2018 - 2019",
+            "poste": "ASSISTANTE PUIS RESPONSABLE SERVICE TRANSPORT",
+            "entreprise": "GBS à Camphin - Remplacement de la responsable du service transport d'Octobre 2018 à Mai 2019",
+            "competences": [
+                "Gestion des flux de marchandises (affrêtement envoi et reprise) en recherchant des solutions de transports auprès de différentes sociétés partenaires",
+                "Intégration des rendez-vous, pour retirer ou livrer les marchandises sur le logiciel Optidock",
+                "Création des commandes de transports sur le logiciel Navision"
+            ]
+        }
+        ],
         "2016": [
         {
-            "periode": "2016 2017",
+            "periode": "2016 - 2017",
             "poste": "EMPLOYEE ADMINISTRATIVE",
             "entreprise": "SAPISO à Courcelles-les-Lens",
             "competences": [
@@ -110,9 +66,19 @@
             ]
         }
         ],
-        "2008": [
+        "2013": [
         {
-            "periode": "2008 2011",
+            "periode": "2013 - 2014",
+            "poste": "ASSISTANTE ADMINISTRATIVE",
+            "entreprise": "Maisons Optinergie à Noyelles-Godault",
+            "competences": [
+                "Suivi des dossiers de construction sur support papier et informatique (demande d'étude de sol, d'implantation, de devis divers...)"
+            ]
+        }
+        ],
+        "2011": [
+        {
+            "periode": "2008 - 2011",
             "poste": "ASSISTANTE ADMINISTRATIVE",
             "entreprise": "SA DURO-HOME à Cantin",
             "competences": [
@@ -121,9 +87,27 @@
             ]
         }
         ],
+        "2008": [
+        {
+            "periode": "2008",
+            "poste": "AGENT ADMINISTRATIF",
+            "entreprise": "Mairie d'Hénin-Beaumont",
+            "competences": [
+                "Traitement des diverses demandes d'emplois etmise à jour de différents tableaux sur Excel au service des ressources humaines"
+            ]
+        },
+        {
+            "periode": "2008",
+            "poste": "ASSISTANTE ADMINISTRATIF",
+            "entreprise": "Dépann’gaz service à Carvin",
+            "competences": [
+                "Clôture des bons d’interventions des techniciens sur logiciel interne - Saisie de courriers divers"
+            ]
+        }
+        ],
         "2003": [
         {
-            "periode": "2003 2006",
+            "periode": "2003 - 2006",
             "poste": "ASSISTANTE POLYVALENTE",
             "entreprise": "France Oxygène à Avelin",
             "competences": [
@@ -131,6 +115,19 @@
                 "Création des nouveaux patients et docteurs, ",
                 "Suivi des dossiers patients (désappareillages, décés, changement de caisse de sécurité sociale...), ",
                 "Relance du paiement des factures auprès des différentes mutuelles ou caisses de securité sociale des patients"
+            ]
+        }
+        ],
+        "2002": [
+        {
+            "periode": "1998 - 2002",
+            "poste": "ASSISTANTE TECHNICO-COMMERCIAL",
+            "entreprise": "Adrexo (Groupe Le Galibot) à Vendeville",
+            "competences": [
+                "Préparation des bons de commandes client",
+                "Suivi des dossiers clients (relance paiements, mise à jour documents administratifs...)",
+                "Suivi des contrats distributeurs et contrôleurs (absences, démissions, congés)",
+                "Calcul et suivi des primes distributeurs et contrôleurs"
             ]
         }
         ],
@@ -144,5 +141,4 @@
             ]
         }
         ]
-    }
 }
