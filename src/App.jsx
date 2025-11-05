@@ -4,11 +4,16 @@ import About from './components/about'
 import Formation from './components/formations'
 import Experiences from './components/experiences'
 import Divers from './components/divers'
+import Contact from './components/contact'
+import Footer from './Footer'
+import ScrollToTop from './components/ScrollToTop'
+import Header from './Header'
 
 function App() {
 
   return (
     <>
+    <Header />
     <main>
       <div className="presentation">
         <div className='presentation_elements'>
@@ -24,13 +29,16 @@ function App() {
           </div>
         </div>
       </div>
+      <ScrollToTop />
       <div className='light-effect1'></div>
       <About />
       <div className='light-effect2'></div>
       <Formation />
       <Experiences />
       <Divers />
+      <Contact />
     </main>
+    <Footer />
     </>
   )
 }

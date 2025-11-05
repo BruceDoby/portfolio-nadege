@@ -394,3 +394,154 @@ main {
   width: 77px;
   height: 47px;
 }
+
+.contact {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--noir);
+  padding-bottom: 100px;
+}
+
+.contact h1 {
+  margin: 0;
+  font-family: var(--font1);
+  color: var(--blanc-creme);
+  font-size: 70px;
+  font-weight: 200;
+  padding: 60px 0 30px 0;
+}
+
+.mail {
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.contact p, .contact a {
+  font-family: var(--font3);
+  color: var(--blanc-creme);
+  text-decoration: none;
+}
+
+.contact_infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.devicon-linkedin-plain {
+  font-size: 48px;
+}
+
+.cvs {
+  display: flex;
+  flex-direction: row;
+  gap: 300px;
+}
+
+.cvs p {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.cv a {
+  font-size: 24px;
+  border: 2px solid var(--blanc-creme);
+  padding: 10px 100px 10px 100px;
+  border-radius: 5px;
+  font-weight: 800;
+  background: linear-gradient(to right, #d9d9d9 0%, #737373 100%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: background-position 0.5s ease;
+  cursor: pointer;
+}
+
+.cv a:hover {
+  background-position: 0 0;
+  color: var(--noir);
+}
+
+.cv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--noir);
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+footer p {
+  margin: 10px 0 10px 0;
+}
+
+.footer__infos, .copyright {
+  color: var(--blanc-creme);
+  font-family: var(--font3);
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  gap: 10px;
+}
+
+.footer__infos span {
+  position: relative;
+  top: 10px;
+}
+
+.footer__infos a {
+  text-decoration: none;
+  color: var(--blanc-creme);
+}
+
+.fa-copyright {
+  position: relative;
+  top: 9px;
+  font-size: 27px;
+}
+
+.scroll-button {
+  position: fixed;
+  bottom: 24px;
+  right: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+  z-index: 100;
+}
+
+.scroll-button.visible {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.scroll-bubble {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(to top, var(--blanc-creme) 0%, var(--kaki) 100%);
+  transition: transform 0.2s ease;
+}
+
+.scroll-button:hover .scroll-bubble {
+  transform: scale(1.1);
+}
+
+.scroll-text {
+  margin-top: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  user-select: none;
+}
