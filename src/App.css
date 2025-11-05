@@ -10,14 +10,74 @@
   --font3: "Playfair", serif;
 }
 
-/* ancien de app.css : 
-#root {
-  margin: 0 auto;
-  text-align: center;
-} */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0 auto;
+}
+
+header {
+  position: relative;
+  background-color: var(--blanc-creme);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+}
+
+nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: var(--beige-clair);
+  width: 92%;
+  margin-top: 40px;
+  z-index: 10;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+nav ul {
+  margin: 0;
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px 0 40px;
+  gap: 130px;
+}
+
+nav li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font1);
+  font-weight: 400;
+  font-size: 28px;
+  text-align: center;
+  width: 170px;
+  gap: 8px;
+}
+
+nav a {
+  color: var(--noir);
+  text-decoration: none;
+}
+
+.navball {
+  /* position: absolute; */
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom, var(--moins-noir) 20%, var(--kaki) 100%);
+  z-index: 10;
+  flex-shrink: 0;
+  margin-left: -10px;
 }
 
 main {
@@ -84,9 +144,6 @@ main {
 }
 
 .liquid-glass {
-  /*z-index: 5;
-  width: 535px;
-  height: 242px;*/
   background: rgba(255, 255, 255, 0.17);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -206,7 +263,7 @@ main {
 
 .light-effect1 {
   position: absolute;
-  top: 19%;
+  top: 5.5%;
   right: -300px;
   z-index: 100;
   width: 600px;
@@ -224,7 +281,7 @@ main {
 
 .light-effect2 {
   position: absolute;
-  top: 55%;
+  top: 15%;
   left: -300px;
   z-index: 100;
   width: 600px;

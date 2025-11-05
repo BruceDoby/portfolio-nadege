@@ -5,7 +5,7 @@ import Diplomee from '../assets/Rectangle_412.png'
 function Formation() {
     return(
         <>
-        <div className='formations_diplomes'>
+        <div className='formations_diplomes' id='Formations'>
             <img src={Diplomee} alt='Chapeau de diplômé' className='diplome--img'></img>
             <div className='formations--section'>
                 <h1 className='formations_h1'>Formations</h1>

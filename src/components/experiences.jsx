@@ -7,7 +7,7 @@ function Experiences() {
         .map(String);
 
     return (
-        <section className="experiences">
+        <section className="experiences" id='Experiences'>
             <h1>Expériences professionnelles</h1>
             <div className="chronologie">
                 {sortedAnnees.map(annee => (

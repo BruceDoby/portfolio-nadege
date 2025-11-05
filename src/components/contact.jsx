@@ -1,7 +1,7 @@
 function Contact() {
     return(
         <>
-        <section className="contact">
+        <section className="contact" id="Contact">
             <h1>Me contacter</h1>
             <div className="contact_infos">
                 <p className="mail">nadege.choquet@hotmail.fr</p>

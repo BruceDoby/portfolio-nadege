@@ -5,7 +5,7 @@ import USA from '../assets/Rectangle_503.png'
 function Divers() {
     return(
         <>
-        <div className='divers'>
+        <div className='divers' id='Divers'>
             <h1>Divers</h1>
             <div className='background--divers'>
                 <img src={DiversBackground} alt='image de fond de divers'></img>

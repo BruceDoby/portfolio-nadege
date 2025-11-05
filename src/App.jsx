@@ -44,5 +44,3 @@ function App() {
 }
 
 export default App
-
-// <div className='liquid-glass'></div>
