@@ -171,7 +171,7 @@ main {
 .about-me p {
   font-family: var(--font2);
   margin: 0;
-  font-size: 24px;
+  font-size: 20px;
   padding: 150px 150px 150px 150px;
 }
 
@@ -491,6 +491,14 @@ main {
   font-size: 48px;
 }
 
+.contact a {
+  transition: transform 0.2s ease;
+}
+
+.contact a:hover {
+  transform: scale(1.1) !important;
+}
+
 .cvs {
   display: flex;
   flex-direction: row;
@@ -554,7 +562,6 @@ footer p {
 }
 
 .footer__infos a {
-  text-decoration: none;
   color: var(--blanc-creme);
 }
 
