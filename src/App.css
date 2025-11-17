@@ -104,10 +104,17 @@ main {
   margin: 0;
 }
 
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .presentation .firstground {
   position: absolute;
   top: 25%;
-  left: 25%;
+  /*left: 25%;*/
   font-size: 100px;
   font-weight: 300;
   z-index: 10;
@@ -117,7 +124,7 @@ main {
 .presentation .background {
   color: var(--kaki);
   position: relative;
-  right: 205px;
+  /*right: 205px;*/
   font-size: 230px;
   font-weight: 300;
   white-space: nowrap;
@@ -133,10 +140,15 @@ main {
   margin-bottom: 100px;
 }
 
+.rectangle_ball {
+  position: relative;
+}
+
 .rectangle_balls h2 {
   position: absolute;
   top: 58%;
-  left: 38%;
+  left: 50%;
+  transform: translateX(-50%);
   font-size: 38px;
   font-weight: 300;
   color: var(--blanc-creme);
@@ -252,7 +264,8 @@ main {
 .diplome--img {
   position: absolute;
   top: 10%;
-  left: 45%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .diplome--balls {
@@ -438,16 +451,16 @@ main {
 .figma {
   z-index: 5;
   position: absolute;
-  top: 32.5%;
-  left: 38%;
+  top: 35%;
+  right: 8%;
   width: 50px;
   height: 50px;
 }
 
 .usa_flag {
   position: absolute;
-  bottom: 11.5%;
-  left: 34.5%;
+  bottom: 13%;
+  right: 13%;
   width: 77px;
   height: 47px;
 }
@@ -608,4 +621,22 @@ footer p {
   font-size: 20px;
   font-weight: 800;
   user-select: none;
+}
+
+@media screen and (min-width: 1440px) {
+.about-me .polygon2 {
+  left: 60%;
+}
+}
+
+@media screen and (min-width: 1690px) {
+.about-me .polygon2 {
+  left: 53%;
+}
+}
+
+@media screen and (min-width: 1920px) {
+.about-me .polygon2 {
+  left: 48%;
+}
 }
