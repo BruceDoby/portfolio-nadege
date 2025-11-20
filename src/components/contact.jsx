@@ -12,11 +12,11 @@ function Contact() {
             <div className="cvs">
                 <div className="cv">
                     <p>Télécharger mon CV en français</p>
-                    <a href="#" onClick={(e) => e.preventDefault()} download>C'est ici</a>
+                    <a href="/cv-fr.pdf" download>C'est ici</a>
                 </div>
                 <div className="cv">
                     <p>Download my resume in english</p>
-                    <a href="#" onClick={(e) => e.preventDefault()} download>It's here</a>
+                    <a href="/cv-en.pdf" download>It's here</a>
                 </div>
             </div>
         </section>
