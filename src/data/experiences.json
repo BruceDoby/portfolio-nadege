@@ -1,7 +1,7 @@
 {
         "2024": [
         {
-            "periode": "2024",
+            "periode": "Depuis 2024",
             "poste": "ASSISTANTE FACTURATION",
             "entreprise": "ERT Technologies à Lesquin",
             "competences": [
@@ -25,15 +25,6 @@
         }
         ],
         "2020": [
-        {
-            "periode": "2020",
-            "poste": "AGENT DE TRI",
-            "entreprise": "Amazon à Lauwin-Planque",
-            "competences": [
-                "Mise en place des colis sur les palettes et les filmer",
-                "Injection des colis sur différents circuits automatiques"
-            ]
-        },
         {
             "periode": "2020",
             "poste": "OPERATRICE DE SAISIE",
@@ -83,7 +74,7 @@
             "entreprise": "SA DURO-HOME à Cantin",
             "competences": [
                 "Suivi des dossiers de construction sur support papier et informatique (demande d'étude de sol, d'implantation, de devis divers...)",
-                "Prise de rendez-vous et suivi des agendas des directeurs technique et commercial"
+                "Prise de rendez-vous et suivi des agendas des directeurs techniques et commerciaux"
             ]
         }
         ],
@@ -93,7 +84,7 @@
             "poste": "AGENT ADMINISTRATIF",
             "entreprise": "Mairie d'Hénin-Beaumont",
             "competences": [
-                "Traitement des diverses demandes d'emplois etmise à jour de différents tableaux sur Excel au service des ressources humaines"
+                "Traitement des diverses demandes d'emplois et mise à jour de différents tableaux sur Excel au service des ressources humaines"
             ]
         },
         {
@@ -102,6 +93,16 @@
             "entreprise": "Dépann’gaz service à Carvin",
             "competences": [
                 "Clôture des bons d’interventions des techniciens sur logiciel interne - Saisie de courriers divers"
+            ]
+        }
+        ],
+        "2006": [
+        {
+            "periode": "2006 - 2008",
+            "poste": "PAUSE PROFESSIONELLE",
+            "entreprise": "Congé parental",
+            "competences": [
+                "Pause carrière dédié à l'éducation de mon fils, avant son entrée en maternelle."
             ]
         }
         ],
